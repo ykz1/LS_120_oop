@@ -30,3 +30,30 @@ end
 
 bob = Person.new("Robert Smith")
 puts "The person's name is: #{bob}"
+
+class Student
+  attr_accessor :grade
+  def initialize(name, grade=nil)
+    @name = name
+  end
+  def speak
+    "#{self}"
+  end
+  def self.speak
+    "Student"
+  end
+end
+
+class Kindergarten < Student
+  def self.speak
+    "Kinder"
+  end
+end
+
+kyle = Student.new('Kyle')
+p kyle
+
+p Student.new('hi').speak
+
+p Kindergarten::speak
+p Student::speak
