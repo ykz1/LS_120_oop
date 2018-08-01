@@ -1,0 +1,6 @@
+puts "1. Allows more abstract thinking"
+puts "2. Represented by nouns; easier to conceptualize"
+puts "3. Reduces namespace issues because we can selectively expose functionality"
+puts "4. Give functionality to multiple parts of applicaiton without duplication"
+puts "5. Because 4 above, can reuse code to build applicaitons faster"
+puts "6. Because all of above, makes complex software more easily managed"
